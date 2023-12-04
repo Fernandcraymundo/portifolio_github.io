@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(img/lua.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+#menu  ul{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    width: 120px;
+    margin: 10px 10px 10px 200px;
+    padding: 15px;
+    float: left;
+    text-align:left;
+    
+    
+    
+}
+#menu a{
+    text-align: unset;
+    color: rgb(218, 183, 118);
+    text-decoration:none ;
+    padding: 10px 26 px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#menu{
+    background: rgba(126, 126, 146, 0.041);
+    
+}
+.barra{
+    padding: 15px;
+}
+#menu a:hover{
+    color:rgb(146, 207, 207);
+    background-color:beige;
+    animation: 1s ms1;
+}
